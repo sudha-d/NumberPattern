@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Number14
+public class HallowInvertedRightTriangleStarPattern
 {
     public static void main(String[] args)
     {

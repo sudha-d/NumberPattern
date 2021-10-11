@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class Number22
+public class RightArrowStarPattern
 {
     public static void main(String[] args)
     {

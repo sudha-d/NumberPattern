@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Number19 {
+public class DiamondStarPattern {
     public static void main(String[] args) {
         int i;
         int j, k;

@@ -1,12 +1,5 @@
-/*
- *****
- *   *
- *   *
- *   *
- *****
- */
 package com.company;
-public class Number3
+public class HallowSquareStarPattern
 {
     public static void main(String[] args)
     {

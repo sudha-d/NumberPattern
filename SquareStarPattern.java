@@ -1,6 +1,6 @@
 package com.company;
 
-public class Numbers {
+public class SquareStarPattern {
     public static void main(String[] args) {
         int j;
         int i;

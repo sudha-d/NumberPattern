@@ -1,18 +1,7 @@
-/*
- **********
- **       *
- * *      *
- *  *     *
- *   *    *
- *    *   *
- *     *  *
- *      * *
- *       **
- **********
- */
+
 package com.company;
 
-public class Number4
+public class HallowCylinderSquareDiagonalStarPattern
 {
     public static void main(String[] args)
     {
@@ -23,7 +12,7 @@ public class Number4
         {
             for (j = 1; j <= 10; j++)
             {
-                if (i==1||i==10||j==1||j==10||i == j)
+                if (i==1||i==10||j==1||j==10||i == j || 11 == i+j)
                 {
                     System.out.print("*");
                 } else {

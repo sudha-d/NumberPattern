@@ -1,19 +1,7 @@
-/*
- **********
- **      **
- * *    * *
- *  *  *  *
- *   **   *
- *   **   *
- *  *  *  *
- * *    * *
- **      **
- **********
 
- */
 package com.company;
 
-public class Number5
+public class PyramidStarPattern
 {
     public static void main(String[] args)
     {
@@ -24,7 +12,7 @@ public class Number5
         {
             for (j = 1; j <= 10; j++)
             {
-                if (i==1||i==10||j==1||j==10||i == j || 11 == i+j)
+                if (i==1||i==10||j==1||j==10||i == j)
                 {
                     System.out.print("*");
                 } else {

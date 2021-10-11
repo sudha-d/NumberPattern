@@ -1,19 +1,28 @@
+
 package com.company;
 
 import java.util.Scanner;
 
-public class Number20
+public class HallowMirroredRhombusSquarePattern
 {
     public static void main(String[] args)
     {
+
         int i;
         int j;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter any n value:");
         int n = sc.nextInt();
-        for (i = 1; i <= 2 * n - 1; i++) {
-            for (j = 1; j <= 2 * n - 1; j++) {
-                if (i == j || i + j == 2 * n) {
+        for (i=1; i <= n; i++)
+        {
+            for (int k = 1;k <=i-1;k++ )
+            {
+                System.out.print(" ");
+            }
+            for (j = 1; j <= n; j++)
+            {
+                if (i==1||j==1||i==n||j==n)
+                {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");

@@ -1,31 +1,27 @@
-/*
- *
- **
- * *
- *  *
- *****
-
- */
 package com.company;
 
 import java.util.Scanner;
 
-public class Number10
-{
+public class HallowMirroredRightTriangleStarPattern {
     public static void main(String[] args) {
 
         int i;
         int j;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter any n value:");
-        int n = sc.nextInt();
-        for (i = 1; i <= n; i++) {
-            for (j = 1; j <= i; j++)
+       int n = sc.nextInt();
+        for(i=1; i<=n; i++)
+        {
+            for( j=i; j<=n; j++){
+                System.out.print(" ");
+            }
+            for(j=1; j<=i; j++)
             {
-                if (j==1||i==j||i == n  )
-                {
+
+                if(i==n || j==1 || j==i){
                     System.out.print("*");
-                } else {
+                }
+                else{
                     System.out.print(" ");
                 }
             }
@@ -33,3 +29,4 @@ public class Number10
         }
     }
 }
+

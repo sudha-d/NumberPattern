@@ -1,17 +1,21 @@
 /*
- *****
-  *****
-    *****
-      *****
-        *****
+ *******
+   **  **
+    * * * *
+      *  *  *
+       * * * *
+        **   **
+         *******
  */
 package com.company;
+
 import java.util.Scanner;
 
-public class Number6
+public class MirroredRhombusDiagonalSquarePattern
 {
     public static void main(String[] args)
     {
+
         int i;
         int j;
         Scanner sc = new Scanner(System.in);
@@ -25,7 +29,12 @@ public class Number6
             }
             for (j = 1; j <= n; j++)
             {
+                if (i==1||i==n||j==1||j==n||i == j || n+1 == i+j)
+                {
                     System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }

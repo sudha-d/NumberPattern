@@ -1,17 +1,8 @@
-/*
-
- *****
- *   *
- *   *
- *   *
- *****
-                 */
 package com.company;
 
 import java.util.Scanner;
 
-public class Number8
-{
+public class HallowInvertedRightTrianglePattern {
     public static void main(String[] args)
     {
 
@@ -20,18 +11,15 @@ public class Number8
         Scanner sc = new Scanner(System.in);
         System.out.println("enter any n value:");
         int n = sc.nextInt();
-        for (i=1; i <= n; i++)
+        for( i=1; i<=n; i++)
         {
-            for (int k = 1;k <=i-1;k++ )
+            for(j=i; j<=n; j++)
             {
-                System.out.print(" ");
-            }
-            for (j = 1; j <= n; j++)
-            {
-                if (i==1||j==1||i==n||j==n)
-                {
+
+                if(i==1 || j==i || j==n){
                     System.out.print("*");
-                } else {
+                }
+                else{
                     System.out.print(" ");
                 }
             }

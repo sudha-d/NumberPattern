@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class Number16 {
+public class HallowPyramidStarPattern {
     public static void main(String[] args) {
         int i, j;
         Scanner sc = new Scanner(System.in);

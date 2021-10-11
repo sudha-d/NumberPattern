@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class Number23
+public class LeftArrowStarPattern
 {
     public static void main(String[] args)
     {
